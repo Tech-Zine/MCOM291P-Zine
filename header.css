@@ -7,6 +7,9 @@
   }
   header {
       background-color: var(--bkg-black);
+      background-image: url('/assets/header-background.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
   }
   header > nav {
     display: flex;
