@@ -33,3 +33,8 @@ main{
 #disqus_thread {
   background-color: var(--bkg-black);
 }
+
+h3{
+  text-align: right;
+}
+
