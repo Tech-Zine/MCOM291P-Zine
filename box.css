@@ -1,22 +1,21 @@
-article {
-    height: auto;
-}
-
 .box {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-    grid-template-rows: repeat(auto-fill, auto-fill);
-
-
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-rows: repeat(auto-fill, auto-fill);
 }
 
 .smallBox {
-    border: 2px solid black;
-    margin: 50px;
-    padding: 25px;
-    box-shadow: 10px 10px 15px black;
-    background-color: #66fcf1;
-    color: #1f2833;
-    font-weight: 700;
-    font-family: "Oswald", sans-serif;
+  border: 2px solid black;
+  margin: 50px;
+  padding: 25px;
+  box-shadow: 10px 10px 15px black;
+  background-color: var(--prm-font-cyan);
+  color: var(--navy);
+  font-family: var(--oswald);
+  font-weight: 700;
+}
+
+.smallBox > img {
+  height: auto;
+  width: 100%;
 }
