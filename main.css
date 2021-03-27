@@ -27,6 +27,7 @@ body {
 
 main{
     margin: 50px;
+    height: 100%;
 }
 
 #disqus_thread {

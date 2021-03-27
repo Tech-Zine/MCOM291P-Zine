@@ -11,3 +11,14 @@ header {
   background-size: cover;
   padding: 50px;
 }
+
+header > a {
+  text-decoration: none;
+  color: var(--prm-font-cyan);
+  border-bottom: var(--prm-font-cyan) 1px double;
+  font-size: 30px;
+}
+header > a:hover {
+  cursor: pointer;
+  color: var(--grue);
+}
