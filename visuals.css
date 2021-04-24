@@ -1,10 +1,10 @@
-.box {
+.box1 {
     display: grid;
     grid-template-columns: repeat(1, minmax(500px, 1fr));
     grid-template-rows: repeat(auto-fill, auto-fill);
   }
   
-  .smallBox {
+  .smallBox1 {
     border: 2px solid black;
     margin: 50px;
     padding: 25px;
@@ -15,14 +15,14 @@
     font-weight: 700;
   }
   
-  .smallBox > img {
+  .smallBox1 > img {
     height: auto;
     width: 100%;
   }
 
   .videoWrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 50%; /* 16:9 */
     height: 0;
   }
   .videoWrapper iframe {
@@ -37,4 +37,7 @@
       text-align: center;
       font-size: xx-large;
   }
-  
+.firstLetter{
+  font-weight: 900;
+  color: blue;
+}

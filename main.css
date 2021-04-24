@@ -38,3 +38,32 @@ h3{
   text-align: right;
 }
 
+article>h1{
+  text-align: center;
+}
+article>p{
+  text-indent: 40px;
+  
+}
+
+.saraImage {
+  height: 350px !important;
+}
+
+.tableOfContents>h1 {
+  text-align: center;
+}
+.tableOfContents>h2 {
+  text-align: center;
+}
+
+.tableOfContents>h2>a:visited{
+  color: #66fcf1;
+}
+.tableOfContents>h4>a:visited{
+  color: #66fcf1;
+  text-decoration: none;
+}
+.tableOfContents>h4>a{
+  text-decoration: none;
+}
