@@ -1,0 +1,10 @@
+article{
+    padding-left: 150px;
+    padding-right: 200px;
+    font-size: 23px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
