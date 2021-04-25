@@ -6,7 +6,7 @@
 }
 header {
   background-color: var(--bkg-black);
-  background-image: url("/assets/header-background.jpg");
+  background-image: url("https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg?cs=srgb&dl=pexels-kai-pilger-1341279.jpg&fm=jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
