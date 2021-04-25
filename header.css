@@ -9,10 +9,9 @@ header {
   background-image: url("/assets/header-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px;
 }
 
-header > a {
+header > a:link {
   text-decoration: none;
   color: var(--prm-font-cyan);
   border-bottom: var(--prm-font-cyan) 1px double;
